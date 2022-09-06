@@ -61,8 +61,8 @@ public buildForm(){
     if(this.userId != undefined){
 
       this.dataService.updateData(this.userId,payload).then(()=>{
-        alert("Data Update Successfully")
-        this.form.reset()
+        alert("Data Update Successfully") 
+        this.form.reset() 
         this.router.navigate(['datalist'])
       })
 
