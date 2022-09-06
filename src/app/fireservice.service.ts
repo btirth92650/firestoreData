@@ -7,7 +7,7 @@ import { collection } from '@firebase/firestore';
   providedIn: 'root'
 })
 export class FireserviceService {
-  getEditData: any = []
+  getEditData:  any = []
 
   constructor(private fService: Firestore) { }
 
@@ -16,7 +16,7 @@ export class FireserviceService {
 
   addData(data: Data) {
     data.id = doc(collection(this.fService, 'id')).id
-    return addDoc(collection(this.fService, 'Datas'), data)
+    return addDoc(collection(this.fService, 'Datas'),  data)
   }
 
   // get all data from Database

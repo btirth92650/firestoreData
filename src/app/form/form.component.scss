@@ -1,0 +1,16 @@
+.navbar_button_text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    a{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .button_click{
+        button{
+            margin: 5px;
+        }
+    }
+
+}

@@ -10,6 +10,11 @@
     display: flex;
     justify-content: center;
 }
+.back_button{
+    button{
+        margin: 5px;
+    }
+}
 .send{
     margin-left: 12px;
 }
