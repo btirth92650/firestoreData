@@ -1,12 +1,17 @@
+<div class="button">
+    <button type="button" (click)="backtogal()" class="btn btn-primary"><i class="fa fa-reply"
+            aria-hidden="true"></i>Back</button>
+
+</div>
 <table class="table">
     <thead>
-        <tr >
+        <tr>
             <th scope="col">SR</th>
             <th scope="col">First</th>
             <th scope="col">Address</th>
             <th scope="col">PinCode</th>
             <th scope="col">MobilNumber</th>
-            <th scope="col">A</th>
+            <th scope="col">Action</th>
         </tr>
     </thead>
     <tbody>
@@ -16,11 +21,12 @@
             <td>{{item.data_address}}</td>
             <td>{{item.data_pincode}}</td>
             <td>{{item.data_mobileNo}}</td>
-            
             <td>
-                <div class="button">
-                    <i class="fa fa-pencil" (click)="updateData(item)"  aria-hidden="true"></i>
-                    <i class="fa fa-trash" (click)="deleteData(item)" aria-hidden="true"></i>
+                <div class="add_del_button">
+                    <button type="button" class="add" (click)="updateData(item)" class="btn btn-success"><i class="fa fa-pencil"
+                            aria-hidden="true"></i>ADD</button>
+                    <button type="button" class="del" (click)="deleteData(item)" class="btn btn-danger"><i class="fa fa-trash"
+                            aria-hidden="true"></i>Delete</button>
                 </div>
             </td>
 

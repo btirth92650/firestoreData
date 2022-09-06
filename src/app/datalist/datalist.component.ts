@@ -17,6 +17,9 @@ export class DatalistComponent implements OnInit {
   ngOnInit(): void {
     this.getAllData()
   }
+  backtogal(){
+    this.router.navigate(['dashbord'])
+  }
 
   // get all data 
 
