@@ -1,0 +1,97 @@
+
+  // login box
+  .page {
+      width: 60%;
+      height: 500px;
+      background-color: white;
+      position: relative;
+      top: 80px;
+      left: 20%;
+      // border: 1px solid black;
+      border-radius: 20px;
+      box-shadow: 5px 5px 5px 5px white;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .pic {
+      display: flex;
+      padding-left: 30px;
+      align-items: center;
+  
+  }
+  
+  .form {
+      padding-right: 30px;
+      display: flex;
+      align-items: center;
+  }
+  
+  .form-group {
+      margin-left: 50px;
+      width: 100%
+  }
+  
+  .signbtn {
+      margin-left: 50px;
+  }
+  
+  .signup {
+      font-weight: 700;
+      font-family: -webkit-body;
+      color: #563d7c
+      
+  }
+  
+  .image {
+      height: 450px;
+  }
+  
+  .forgotPassword {
+      margin-left: -66%;
+      margin-top: 24%;
+  }
+  
+  .SignUp {
+      margin-left: 14px;
+  }
+  .eyebutton{
+      position: absolute;
+      right: 58px;
+      top: 254px;
+      border: none;
+      background: white;
+  }
+  
+    
+    p {
+      font-family: Lato;
+    }
+    
+    // .hide {
+    //   display: none;
+    // }
+    // .inner-addon { 
+    //     position: relative; 
+    // }
+    // .inner-addon .far, .inner-addon .fas {
+    //   position: absolute;
+    //   padding: 10px 30px;
+    //   z-index: 100;
+    //   cursor: pointer;
+    // }
+    // .left-addon .far, .left-addon .fas  { left:  0px; }
+    // .right-addon .far, .right-addon .fas { right: 0px; }
+    
+    // .left-addon input  { padding-left:  30px; }
+    // .right-addon input { padding-right: 30px; }
+    // .icon1{
+    //   position: absolute;
+    //   top: 253px;
+    //   right: 106px;
+    // }
+    // .icon2{
+    //   position: absolute;
+    //   top: 258px;
+    //   right: 63px;
+    // }

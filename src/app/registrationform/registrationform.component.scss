@@ -1,0 +1,21 @@
+.row{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    margin: 2%;
+    margin-left: 23%;
+    margin-top: 3%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.send{
+    margin-left: 12px;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    color: #007bff;
+    margin-top: 14px;
+}
