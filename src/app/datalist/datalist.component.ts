@@ -30,14 +30,13 @@ export class DatalistComponent implements OnInit {
   }
 
   deleteData(data:Data){
-    let decision = confirm("Are You Sure You Want To Delete This Data ?");
+    let decision = confirm("Are You Sure You Want To Delete This Data ??");
     if(decision == true){
       this.dataService.deleteData(data)
     }
   }
 
   updateData(data:any){
-    debugger
     this.dataService.setDataById(data)
     this.router.navigate(['registrationform',data.id])
   }
