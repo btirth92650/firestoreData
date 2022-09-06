@@ -12,7 +12,7 @@ import { DatalistComponent } from './datalist/datalist.component';
 import { provideFirebaseApp,initializeApp} from '@angular/fire/app'
 import { getFirestore,provideFirestore} from '@angular/fire/firestore'
 import { environment } from 'src/environments/environment.prod';
-import {AngularFireModule} from "@angular/fire/compat";
+// import {AngularFireModule} from "@angular/fire/compat";
 
 // import { AngularFireModule } from '@angular/fire/compat';
 // import { AngularFireAuthModule } from '@angular/fire/compat/auth';
@@ -33,8 +33,6 @@ import {AngularFireModule} from "@angular/fire/compat";
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    
-    AngularFireModule,
     provideFirebaseApp(()=>initializeApp(environment.firebaseConfig)),
     provideFirestore(()=> getFirestore()),
 
